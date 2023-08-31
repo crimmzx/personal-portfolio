@@ -18,7 +18,7 @@ export const Footer = () => {
               <a href="https://github.com/crimmzx" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="GithubIcon" /></a>
               <a href="https://www.instagram.com/kuwxsa/" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="InstagramIcon" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>This page was made by William Zhang, © 2023</p>
           </Col>
         </Row>
       </Container>
