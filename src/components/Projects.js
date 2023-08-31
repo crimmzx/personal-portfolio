@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/employai.png";
+import projImg2 from "../assets/img/edge.svg";
+import projImg3 from "../assets/img/III.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,67 +11,47 @@ export const Projects = () => {
 
   const FolioProjects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Employ AI",
+      description: "LLM Research and",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "EdgeFoods",
+      description: "Financial Model & Dashboard Project",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Institute for Ideation & Innovation",
+      description: "Healthcare ML Project",
       imgUrl: projImg3,
     },
   ];
 
    const AgileProjects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Echelon",
+      description: "Private Equity/Data Science project",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Tokemak",
+      description: "Crypto Research",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "MAIA",
+      description: "Biotech Investigator Reseach",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Flare Health",
+      description: "User Research & AWS Engineer Project",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Yoga Now",
       description: "Design & Development",
       imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
     },
   ];
 
