@@ -1,9 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/employai.png";
-import projImg2 from "../assets/img/edge.svg";
-import projImg3 from "../assets/img/III.png";
+import employai from "../assets/img/employai.png";
+import edge from "../assets/img/edge.svg";
+import III from "../assets/img/III.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import echelon from "../assets/img/echelon.png";
+import tokemak from "../assets/img/tokemak.png";
+import maia from "../assets/img/maia.png";
+import flare from "../assets/img/flare.png";
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -13,80 +18,54 @@ export const Projects = () => {
     {
       title: "Employ AI",
       description: "LLM Research and",
-      imgUrl: projImg1,
+      imgUrl: employai,
     },
     {
       title: "EdgeFoods",
       description: "Financial Model & Dashboard Project",
-      imgUrl: projImg2,
+      imgUrl: edge,
     },
     {
       title: "Institute for Ideation & Innovation",
       description: "Healthcare ML Project",
-      imgUrl: projImg3,
+      imgUrl: III,
     },
   ];
 
    const AgileProjects = [
     {
-      title: "Echelon",
-      description: "Private Equity/Data Science project",
-      imgUrl: projImg1,
-    },
-    {
       title: "Tokemak",
       description: "Crypto Research",
-      imgUrl: projImg2,
+      imgUrl: tokemak,
     },
     {
       title: "MAIA",
       description: "Biotech Investigator Reseach",
-      imgUrl: projImg3,
+      imgUrl: maia,
+    },
+    {
+      title: "Echelon",
+      description: "Private Equity/Data Science project",
+      imgUrl: echelon,
     },
     {
       title: "Flare Health",
       description: "User Research & AWS Engineer Project",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Yoga Now",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: flare,
     },
   ];
 
-
   const MlProjects = [
     {
-      title: "Business Startup",
+      title: "ML Diagnosing Glioblastoma Multiforme",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: flare,
     },
     {
-      title: "Business Startup",
+      title: "ML detecting areas of wildfire susceptibility",
       description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+      imgUrl: flare,
+    }
   ];
 
   return (
