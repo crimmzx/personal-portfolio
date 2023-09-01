@@ -2,12 +2,12 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import employai from "../assets/img/employai.png";
 import edge from "../assets/img/edge.svg";
-import III from "../assets/img/III.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import echelon from "../assets/img/echelon.png";
 import tokemak from "../assets/img/tokemak.png";
 import maia from "../assets/img/maia.png";
 import flare from "../assets/img/flare.png";
+import research from "../assets/img/research.jpeg"
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -17,7 +17,7 @@ export const Projects = () => {
   const FolioProjects = [
     {
       title: "Employ AI",
-      description: "LLM Research and",
+      description: "LLM Research and Development Project",
       imgUrl: employai,
     },
     {
@@ -28,7 +28,7 @@ export const Projects = () => {
     {
       title: "Institute for Ideation & Innovation",
       description: "Healthcare ML Project",
-      imgUrl: III,
+      imgUrl: research,
     },
   ];
 
@@ -39,32 +39,32 @@ export const Projects = () => {
       imgUrl: tokemak,
     },
     {
-      title: "MAIA",
-      description: "Biotech Investigator Reseach",
-      imgUrl: maia,
+      title: "Flare Health",
+      description: "User Research & AWS Engineer Project",
+      imgUrl: flare,
     },
     {
       title: "Echelon",
       description: "Private Equity/Data Science project",
       imgUrl: echelon,
     },
-    {
-      title: "Flare Health",
-      description: "User Research & AWS Engineer Project",
-      imgUrl: flare,
-    },
+     {
+      title: "MAIA",
+      description: "Biotech Investigator Reseach",
+      imgUrl: maia,
+    }
   ];
 
   const MlProjects = [
     {
-      title: "ML Diagnosing Glioblastoma Multiforme",
-      description: "Design & Development",
-      imgUrl: flare,
+      title: "ML Brain Tumor Detection",
+      description: "ML/Medicine intersection project",
+      imgUrl: research,
     },
     {
-      title: "ML detecting areas of wildfire susceptibility",
-      description: "Design & Development",
-      imgUrl: flare,
+      title: "ML Wildfire Detection",
+      description: "ML/Enviroment intersection project",
+      imgUrl: research,
     }
   ];
 
