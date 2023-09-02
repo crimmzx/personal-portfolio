@@ -5,6 +5,15 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+
+function scrollToConnect() {
+  const connectSection = document.getElementById("connect");
+
+  if (connectSection) {
+    connectSection.scrollIntoView({ behavior: "smooth" });
+  }
+}
+
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -60,7 +69,7 @@ export const Banner = () => {
                   <p>
                     I'm a current sophomore at Princeton University pursuing a concentration in Computer Science. I am interested in full-stack development, machine learning, and quantative finance.
                     On campus, I am a Treasurer/Developer for the <a href= "https://tigerlaunch.com/home" rel="noopener noreferrer" >TigerLaunch</a> and a Full-stack developer for <a href = "https://hack4impact.org/" rel="noopener noreferrer"> Hack4Impact</a>.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                         <button onClick={scrollToConnect}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
