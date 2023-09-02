@@ -416,8 +416,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx {
   position: relative;
   border-radius: auto;
-  overflow:auto;
+  overflow:hidden;
   margin-bottom: auto;
+  min-height: 150px;
 }
 .proj-imgbx::before {
   content: "";
@@ -444,6 +445,53 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
+}
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.button-container button {
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 18px;
+  margin-left: 18px;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+.button-container button span {
+  z-index: 1;
+}
+
+.button.container button::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+
+.button-container button:hover {
+  color: #121212;
+  background-color: #fff;
+}
+
+.button-container button:hover::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 .proj-txtx h4 {
   font-size: 30px;

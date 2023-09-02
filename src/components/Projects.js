@@ -19,11 +19,13 @@ export const Projects = () => {
       title: "Employ AI",
       description: "LLM Research and Development Project",
       imgUrl: employai,
+      link: "https://www.employai.com/"
     },
     {
       title: "EdgeFoods",
       description: "Financial Model & Dashboard Project",
       imgUrl: edge,
+      link: "https://www.edgefoods.co//"
     },
     {
       title: "Institute for Ideation & Innovation",
@@ -34,24 +36,28 @@ export const Projects = () => {
 
    const AgileProjects = [
     {
-      title: "Tokemak",
-      description: "Crypto Research",
-      imgUrl: tokemak,
+      title: "Echelon",
+      description: "Private Equity/Data Science project",
+      imgUrl: echelon,
+      link: "https://echelon.xyz/"
     },
     {
       title: "Flare Health",
       description: "User Research & AWS Engineer Project",
       imgUrl: flare,
+      link: "https://flarehealth.com/"
     },
     {
-      title: "Echelon",
-      description: "Private Equity/Data Science project",
-      imgUrl: echelon,
+      title: "Tokemak",
+      description: "Crypto Research",
+      imgUrl: tokemak,
+      link: "https://www.tokemak.xyz/"
     },
      {
       title: "MAIA",
       description: "Biotech Investigator Reseach",
       imgUrl: maia,
+      link: "https://maiabiotech.com/"
     }
   ];
 
